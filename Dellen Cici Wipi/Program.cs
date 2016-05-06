@@ -123,8 +123,25 @@ namespace DellenCiciWipi
                             duramk = false;
                         }
                     }
-                };
-
+                    if (press4.CurrentValue)
+                    { 
+                        if (duramk == false 
+                             Chat.Say("/all          ____");
+                             Chat.Say("/all        / /     7");
+                             Chat.Say("/all       (__,__/\\ ");
+                             Chat.Say("/all        \\         \\ ");
+                             Chat.Say("/all         \\         \\ ");
+                             Chat.Say("/all       __\\         \\__");
+                             Chat.Say("/all      (     \\            )");
+                             Chat.Say("/all       \\___\\_____/  ");)
+                             duramk = true
+                             gameTime1 = Game.Time + 1;
+                        }
+                        if (Game.Time > gameTime1
+                        {
+                            duramk = false
+                        }
+                    }
             };
         }
     }
